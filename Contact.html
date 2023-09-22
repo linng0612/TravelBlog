@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my space</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/favicon.svg">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="blog">
+        <header class="header">
+            <div class="top-header">
+                <div class="social-icons">
+                    <a class="blog-icon" href="https://www.facebook.com/linhnguyen61299" target="-blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="blog-icon" href="https://www.instagram.com/nttlinh_0612/" target="-blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+            
+                    <a class="blog-icon" href="https://mail.google.com/mail/linhnguyen61299" target="-blank">
+                            <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </div>
+                <nav id="main-menu">
+                    
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="mobile-menu-toggle">Menu</button>
+                <nav id="mobile-menu">
+                    
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="thumnail">
+                <img src="image/demo.png" alt="demo">
+            </div>
+    
+        </header>
+        
+        <section class="contact">
+            <div class="container-contact">
+                <div class="content">
+                    <div class="left-side">
+                        <div class="address details">
+                            <ion-icon class="icon" name="location-outline"></ion-icon>
+                            <div class="text-one">Vuituoikatu, Mikkeli</div>
+                            <div class="text-two">50100 Finland</div>
+                        </div>
+                        <div class="phone details">
+                            <ion-icon class="icon" name="call-outline"></ion-icon>
+                            <div class="text-one">+358 455548756</div>
+                        </div>
+                        <div class="email details">
+                            <ion-icon class="icon" name="mail-outline"></ion-icon>
+                            <div class="text-one">linhnguyen61299@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="topic-text">Do not hesitate to send me a messsage</div>
+                        <form action="#">
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your email">
+                            </div>
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your message">
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Send now">
+                            </div>
+        
+                        </form>
+                    </div>
+                </div>
+    
+            </div>
+            
+    
+        </section>
+       
+    
+    
+
+    </div>
+    
+
+
+    <!-----Javascript for Toggle menu-->
+    <script>
+        // JavaScript to toggle mobile menu
+        document.addEventListener("DOMContentLoaded", function() {
+            const mobileMenu = document.getElementById("mobile-menu");
+            const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+
+            mobileMenuToggle.addEventListener("click", function() {
+                if (mobileMenu.style.display === "block") {
+                    mobileMenu.style.display = "none";
+                } else {
+                    mobileMenu.style.display = "block";
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my space</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/favicon.svg">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <section class="blog">
+
+        <header class="header">
+            <div class="top-header">
+                <div class="social-icons">
+                    <a class="blog-icon" href="https://www.facebook.com/linhnguyen61299" target="-blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="blog-icon" href="https://www.instagram.com/nttlinh_0612/" target="-blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+            
+                    <a class="blog-icon" href="https://mail.google.com/mail/linhnguyen61299" target="-blank">
+                            <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </div>
+                <nav id="main-menu">
+                    
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="mobile-menu-toggle">Menu</button>
+                <nav id="mobile-menu">
+                    
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="thumnail">
+                <img src="image/demo.png" alt="demo">
+            </div>
+    
+        </header>
+        
+        <hr>
+        <!---Estonia-->
+    
+        <section class="Destinations">
+            <h1>Tallinn in Estonia in a winter day</h1>
+            <p class="text">The first trip of 2023 is to Estonia. This is a short trip of 1 day and 1 night, I think this is enough time to experience Tallinn.
+                
+                On a day in mid-January, when the Christmas market was still there but it was no longer crowded and bustling. I walked through the old streets, stopped by cute souvenir shops, and especially ate pancakes at Pub Kompressor because it is so good.</p>    
+    
+            <section class="Estonia">
+    
+                <div class="district">
+                    
+                    
+                    <div class="grid-container">
+                        <div class="column">
+                            <img src="image/Estonia/DSC00209.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00220.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00223.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00226.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00233.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00236.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00289.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00290.JPG" alt="">                   
+                        </div>
+                        <div class="column">
+                            <img src="image/Estonia/DSC00266.JPG" alt="">                   
+                        </div>
+                        
+                    </div>
+
+        
+                </div>
+    
+            </section>
+        </section>
+
+    </section>
+    
+        
+
+
+    <!-----Javascript for Toggle menu-->
+    <script>
+        // JavaScript to toggle mobile menu
+        document.addEventListener("DOMContentLoaded", function() {
+            const mobileMenu = document.getElementById("mobile-menu");
+            const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+
+            mobileMenuToggle.addEventListener("click", function() {
+                if (mobileMenu.style.display === "block") {
+                    mobileMenu.style.display = "none";
+                } else {
+                    mobileMenu.style.display = "block";
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Wonderful Experiences</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="shortcut icon" href="image/favicon.svg">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    
+    <body>
+        <div class="blog">
+            <header class="header">
+                <div class="top-header">
+                    <div class="social-icons">
+                        <a class="blog-icon" href="https://www.facebook.com/linhnguyen61299" target="-blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a class="blog-icon" href="https://www.instagram.com/nttlinh_0612/" target="-blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                
+                        <a class="blog-icon" href="https://mail.google.com/mail/linhnguyen61299" target="-blank">
+                                <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <nav id="main-menu">
+                    
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button id="mobile-menu-toggle">Menu</button>
+                    <nav id="mobile-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="thumnail">
+                    <img src="image/demo.png" alt="demo">
+                </div>
+
+            </header>
+
+            <section class="blog-container">
+                <h1>"A journey of thousand miles begins with a single step"</h1>
+                <p>Hey there, I'm Linh Nguyen, an IT student with an insatiable passion for travel and photography. This space is my digital journal, where pixels and places intertwine to narrate stories beyond words.
+                    
+                Beyond the world of codes and algorithms, I explore far-off lands with my camera in tow, freezing moments in time that whisper the essence of cultures, people, and vistas. Join me in this visual escapade, as we traverse the globe one snapshot at a time.
+                
+                These are my first steps to explore this world! ^ ^ </p>
+                
+                <div class="row">
+                    <div class="place-col">
+                        <a href="Vietnam.html">
+                            <div class="image-container">
+                                <img src="image/Hanoi/Hanoi1.jpg" alt="Vietnam" >
+                                <div class="layer">
+                                    <h3>Vietnam</h3>
+                                </div>
+
+                            </div>
+                            
+                        </a>
+                        
+                    </div>
+                    <div class="place-col">
+                        <a href="Singapore.html">
+                            <div class="image-container">
+                                <img src="image/Singapore/Sing1.JPG" alt="Singapore"  >
+                                <div class="layer">
+                                    <h3>Singapore</h3>
+                                </div>
+
+                            </div>
+                            
+        
+                        </a>
+                        
+                    </div>
+                    <div class="place-col">
+                        <a href="Finland.html">
+                            <div class="image-container">
+                                <img src="image/Finland/Mikkeli1.jpg" alt="Finland"  >
+                                <div class="layer">
+                                    <h3>Finland</h3>
+                                </div>
+                            </div>
+                            
+                        </a>
+                        
+                    </div>
+    
+                    <div class="place-col">
+                        <a href="Germany.html">
+                            <div class="image-container">
+                                <img src="image/Germany/1.jpg" alt="Germany"  >
+                                <div class="layer">
+                                    <h3>Germany</h3>
+                                </div>
+                            </div>
+        
+                            
+                        </a>
+                        
+                    </div>
+                    <div class="place-col">
+                        <a href="Estonia.html">
+                            <div class="image-container">
+                                <img src="image/Estonia/Tallinn1.JPG" alt="Estonia"  >
+                                <div class="layer">
+                                    <h3>Estonia</h3>
+                                </div>
+                            </div>
+                            
+                        </a>
+                        
+                    </div>
+                    <div class="place-col">
+                        <a href="India.html">
+                            <div class="image-container">
+                                <img src="image/India/India1.jpg" alt="India"  >
+                                <div class="layer">
+                                    <h3>India</h3>
+                                </div>
+                            </div>
+                            
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </section>
+
+           
+
+            
+        
+
+        </div>
+
+        <script>
+            // JavaScript to toggle mobile menu
+            document.addEventListener("DOMContentLoaded", function() {
+                const mobileMenu = document.getElementById("mobile-menu");
+                const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+
+                mobileMenuToggle.addEventListener("click", function() {
+                    if (mobileMenu.style.display === "block") {
+                        mobileMenu.style.display = "none";
+                    } else {
+                        mobileMenu.style.display = "block";
+                    }
+                });
+            });
+        </script>
+
+        
+
+    </body>
+</html>
